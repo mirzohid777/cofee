@@ -1,0 +1,91 @@
+
+/* create you plan.html start */
+
+
+main{
+    max-width: 16000px;
+    margin: 50px auto;
+}
+
+.oxirgi-img{
+    width: 1445px;
+    height: 540px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.oxirgi-text-m1{
+    font-size: 48px;
+}
+
+.oxirgi-text{
+    width: 643px;
+    height: 207px;
+}
+
+.main-eng-oxirgi{
+    background-color: #C99B67;
+    color: #FFFFFF;
+    width: 1500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-oxirgi-text{
+    width: 643px;
+    height: 207px;
+}
+
+.oxirgi-text-m1{
+    font-size: 50px;
+}
+
+.div11{
+    font-size: 18px;
+    width: 639px;
+    height: 150px;
+}
+
+.div10{
+    margin: 40px ;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+footer{
+    width: 1460px;
+    height: 160px;
+    background-color: #F3D7B7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.footer-img{
+    display: flex;
+    gap: 10px;
+}
+
+.footer-a{
+    display: flex;
+    gap: 30px;
+}
+
+.footer-img1{
+    display: flex;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+

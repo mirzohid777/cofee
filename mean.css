@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 16000px;
+    margin: 30px;
+}
+
+
+
+
+/* header start */
+
+header{
+    padding: 20px;
+    height: 800px;
+    background-color: #F3D7B7;
+}
+
+.header-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.div2{
+    display: flex;
+    gap: 30px;
+}
+
+.header-text{
+    padding: 40px;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.div3{
+    width: 464px;
+    height: 3667px;
+    margin: 30px;
+}
+
+h1{
+    font-size: 64px;
+    margin: 30px auto;
+}
+
+.tepa-qismi-p{
+    width: 464px;
+    height: 72px;
+    font-size: 16px;
+}
+
+button{
+    width: 183px;
+    height: 51px;
+    border-radius: 100px;
+    background-color: #0A775F;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin: 30px auto;
+}
+
+
+.photo-n1{
+    width: 100px;
+    animation-name: school;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.photo-n2{
+    width: 710px;
+    height: 694px;
+}
+
+.photo-n1{
+    position: absolute;
+ top: -90px;
+ left: -90px;
+    width: 160px;
+    height: 160px;
+}
+
+@keyframes school{
+    from{
+        transform: rotateZ(0deg);    
+    }
+
+    to{
+        transform: rotateZ(360deg);
+    }
+
+  
+}
+
+.header-img {
+    height: 100%;
+    position: relative;
+}
+
+
+/* header end */
+
+
+
+/* main start */
+main{
+    width: 1460px;
+    height: 1708px;
+    background-color: beige;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.main-box{
+    width: 900px;
+    height: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.box{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.div9{
+    display: flex;
+    align-items: center;
+}
+
+
+h3{
+    font-size: 48px;
+    width: 164px;
+    height: 56px;
+}
+
+.main-orta-p{
+    width: 391px;
+    height: 68px;
+    font-size: 22px;
+    margin: 10px;
+}
+
+/* main end */
+
+/* footer statr */
+footer{
+    width: 1460px;
+    height: 160px;
+    background-color: #F3D7B7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.footer-img{
+    display: flex;
+    gap: 10px;
+}
+
+.footer-a{
+    display: flex;
+    gap: 30px;
+}
+
+.footer-img1{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+
